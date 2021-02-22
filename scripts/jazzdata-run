@@ -1,2 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+
+def no_boundaries(a, b):
+    return f'{a} + {b} = {a + b + 1}'
+
+
+print(no_boundaries(2, 2))
